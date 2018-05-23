@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 923fa597818041d322006150dbab37697aacdb91
                                  Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
@@ -187,7 +190,11 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
+<<<<<<< HEAD
    Copyright 2015-2016 Supratim Chakraborty
+=======
+   Copyright [yyyy] [name of copyright owner]
+>>>>>>> 923fa597818041d322006150dbab37697aacdb91
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
