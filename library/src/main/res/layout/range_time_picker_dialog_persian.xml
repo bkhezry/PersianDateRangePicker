@@ -67,7 +67,7 @@
                         android:visibility="gone" />
 
                     <include
-                        layout="@layout/mdtp_time_header_label_end"
+                        layout="@layout/mdtp_time_header_label_end_persian"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/mdtp_header_height"
                         android:layout_gravity="center" />
@@ -103,7 +103,7 @@
                         android:visibility="gone" />
 
                     <include
-                        layout="@layout/mdtp_time_header_label"
+                        layout="@layout/mdtp_time_header_label_persian"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/mdtp_header_height"
                         android:layout_gravity="center" />
@@ -121,5 +121,5 @@
         </LinearLayout>
     </TabHost>
 
-    <include layout="@layout/mdtp_done_button" />
+    <include layout="@layout/mdtp_done_button_persian" />
 </LinearLayout>

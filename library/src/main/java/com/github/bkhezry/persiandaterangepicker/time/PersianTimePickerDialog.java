@@ -307,7 +307,7 @@ public class PersianTimePickerDialog extends DialogFragment implements PersianRa
                            Bundle savedInstanceState) {
     getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
 
-    View view = inflater.inflate(R.layout.range_time_picker_dialog, null);
+    View view = inflater.inflate(R.layout.range_time_picker_dialog_persian, null);
     this.activity = getActivity();
     KeyboardListener keyboardListener = new KeyboardListener();
     view.findViewById(R.id.time_picker_dialog).setOnKeyListener(keyboardListener);

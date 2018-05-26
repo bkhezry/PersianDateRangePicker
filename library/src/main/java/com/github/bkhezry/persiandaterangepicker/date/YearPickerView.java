@@ -77,7 +77,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, Per
       years.add(String.format(Locale.getDefault(), "%d", year));
     }
     years = LanguageUtils.getPersianNumbers(years);
-    mAdapter = new YearAdapter(context, R.layout.mdtp_year_label_text_view, years);
+    mAdapter = new YearAdapter(context, R.layout.mdtp_year_label_text_view_persian, years);
     setAdapter(mAdapter);
   }
 

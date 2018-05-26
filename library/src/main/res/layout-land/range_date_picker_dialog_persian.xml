@@ -14,10 +14,9 @@
      limitations under the License.
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="@dimen/mdtp_date_picker_component_width"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/mdtp_date_picker_view_animator"
-    android:gravity="center"
+    android:background="@color/mdtp_background_color"
     android:orientation="vertical">
 
     <TabHost
@@ -26,8 +25,8 @@
         android:layout_height="wrap_content">
 
         <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/mdtp_date_picker_view_animator_height"
             android:orientation="vertical">
 
             <TabWidget
@@ -37,39 +36,51 @@
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1">
 
 
                 <LinearLayout
                     android:id="@+id/end_date_group"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <include layout="@layout/mdtp_date_picker_selected_date_end" />
+                        <include layout="@layout/mdtp_date_picker_selected_date_end_persian" />
+                    </LinearLayout>
 
-                    <include layout="@layout/mdtp_date_picker_view_animator_end" />
+                    <include layout="@layout/mdtp_date_picker_view_animator_end_persian" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/start_date_group"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
 
-                    <include layout="@layout/mdtp_date_picker_selected_date" />
+                        <include layout="@layout/mdtp_date_picker_selected_date_persian" />
+                    </LinearLayout>
 
-                    <include layout="@layout/mdtp_date_picker_view_animator" />
+                    <include layout="@layout/mdtp_date_picker_view_animator_persian" />
                 </LinearLayout>
             </FrameLayout>
+
         </LinearLayout>
 
     </TabHost>
 
-    <include layout="@layout/mdtp_done_button" />
-
+    <include layout="@layout/mdtp_done_button_persian" />
 </LinearLayout>

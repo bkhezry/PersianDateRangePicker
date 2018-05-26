@@ -314,7 +314,7 @@ public class PersianDatePickerDialog extends DialogFragment implements
   public View onCreateView(LayoutInflater inflater, ViewGroup container,
                            Bundle savedInstanceState) {
     getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
-    View view = inflater.inflate(R.layout.range_date_picker_dialog, null);
+    View view = inflater.inflate(R.layout.range_date_picker_dialog_persian, null);
 
     tabHost = view.findViewById(R.id.tabHost);
     tabHost.findViewById(R.id.tabHost);
