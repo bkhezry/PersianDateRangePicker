@@ -20,6 +20,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:support-annotations:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.github.dcendents:android-maven-gradle-plugin:2.0'
 }
 
 // build a jar with source files
