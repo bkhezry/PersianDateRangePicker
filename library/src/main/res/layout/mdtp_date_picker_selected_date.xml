@@ -27,7 +27,7 @@
     android:orientation="vertical">
 
     <com.github.bkhezry.persiandaterangepicker.PersianAccessibleLinearLayout
-        android:id="@+id/date_picker_month_and_day"
+        android:id="@+id/date_picker_month_and_day_persian"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -63,7 +63,7 @@
     </com.github.bkhezry.persiandaterangepicker.PersianAccessibleLinearLayout>
 
     <com.github.bkhezry.persiandaterangepicker.PersianAccessibleTextView
-        android:id="@+id/date_picker_year"
+        android:id="@+id/date_picker_year_persian"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

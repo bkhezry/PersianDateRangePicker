@@ -73,7 +73,7 @@
                         android:layout_gravity="center" />
 
                     <com.github.bkhezry.persiandaterangepicker.time.PersianRadialPickerLayout
-                        android:id="@+id/time_picker_end"
+                        android:id="@+id/time_picker_end_persian"
                         android:layout_width="@dimen/mdtp_picker_dimen"
                         android:layout_height="@dimen/mdtp_time_picker_height"
                         android:layout_gravity="center"
@@ -109,7 +109,7 @@
                         android:layout_gravity="center" />
 
                     <com.github.bkhezry.persiandaterangepicker.time.PersianRadialPickerLayout
-                        android:id="@+id/time_picker"
+                        android:id="@+id/time_picker_persian"
                         android:layout_width="@dimen/mdtp_picker_dimen"
                         android:layout_height="@dimen/mdtp_time_picker_height"
                         android:layout_gravity="center"

@@ -349,17 +349,17 @@ public class PersianTimePickerDialog extends DialogFragment implements PersianRa
       }
     }
 
-    mHourView = view.findViewById(R.id.hours);
+    mHourView = view.findViewById(R.id.hours_persian);
     mHourView.setOnKeyListener(keyboardListener);
-    mHourViewEnd = view.findViewById(R.id.hours_end);
+    mHourViewEnd = view.findViewById(R.id.hours_end_persian);
     mHourViewEnd.setOnKeyListener(keyboardListener);
     mHourSpaceView = view.findViewById(R.id.hour_space);
     mHourSpaceViewEnd = view.findViewById(R.id.hour_space_end);
     mMinuteSpaceView = view.findViewById(R.id.minutes_space);
     mMinuteSpaceViewEnd = view.findViewById(R.id.minutes_space_end);
-    mMinuteView = view.findViewById(R.id.minutes);
+    mMinuteView = view.findViewById(R.id.minutes_persian);
     mMinuteView.setOnKeyListener(keyboardListener);
-    mMinuteViewEnd = view.findViewById(R.id.minutes_end);
+    mMinuteViewEnd = view.findViewById(R.id.minutes_end_persian);
     mMinuteViewEnd.setOnKeyListener(keyboardListener);
     mAmPmTextView = view.findViewById(R.id.ampm_label);
     mAmPmTextView.setOnKeyListener(keyboardListener);
@@ -379,13 +379,13 @@ public class PersianTimePickerDialog extends DialogFragment implements PersianRa
 
     mHapticFeedbackController = new HapticFeedbackController(getActivity());
 
-    mTimePicker = view.findViewById(R.id.time_picker);
+    mTimePicker = view.findViewById(R.id.time_picker_persian);
     mTimePicker.setOnValueSelectedListener(this);
     mTimePicker.setOnKeyListener(keyboardListener);
     mTimePicker.initialize(getActivity(), this, mInitialHourOfDay,
       mInitialMinute, mIs24HourMode, fontName);
 
-    mTimePickerEnd = view.findViewById(R.id.time_picker_end);
+    mTimePickerEnd = view.findViewById(R.id.time_picker_end_persian);
     mTimePickerEnd.setOnValueSelectedListener(this);
     mTimePickerEnd.setOnKeyListener(keyboardListener);
     mTimePickerEnd.initialize(getActivity(), this, mInitialHourOfDayEnd,
@@ -474,8 +474,8 @@ public class PersianTimePickerDialog extends DialogFragment implements PersianRa
     mCancelButton.setVisibility(isCancelable() ? View.VISIBLE : View.GONE);
 
     // Enable or disable the AM/PM view.
-    mAmPmHitspace = view.findViewById(R.id.ampm_hitspace);
-    mAmPmHitspaceEnd = view.findViewById(R.id.ampm_hitspace_end);
+    mAmPmHitspace = view.findViewById(R.id.ampm_hitspace_persian);
+    mAmPmHitspaceEnd = view.findViewById(R.id.ampm_hitspace_end_persian);
 
     if (mIs24HourMode) {
       mAmPmTextView.setVisibility(View.GONE);

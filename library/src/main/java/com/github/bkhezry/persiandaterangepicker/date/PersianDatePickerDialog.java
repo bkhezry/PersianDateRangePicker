@@ -342,8 +342,8 @@ public class PersianDatePickerDialog extends DialogFragment implements
     }
 
     mDayOfWeekView = view.findViewById(R.id.date_picker_header);
-    mMonthAndDayView = view.findViewById(R.id.date_picker_month_and_day);
-    mMonthAndDayViewEnd = view.findViewById(R.id.date_picker_month_and_day_end);
+    mMonthAndDayView = view.findViewById(R.id.date_picker_month_and_day_persian);
+    mMonthAndDayViewEnd = view.findViewById(R.id.date_picker_month_and_day_end_persian);
     mMonthAndDayView.setOnClickListener(this);
     mMonthAndDayViewEnd.setOnClickListener(this);
 
@@ -353,8 +353,8 @@ public class PersianDatePickerDialog extends DialogFragment implements
     mSelectedDayTextView = view.findViewById(R.id.date_picker_day);
     mSelectedDayTextViewEnd = view.findViewById(R.id.date_picker_day_end);
 
-    mYearView = view.findViewById(R.id.date_picker_year);
-    mYearViewEnd = view.findViewById(R.id.date_picker_year_end);
+    mYearView = view.findViewById(R.id.date_picker_year_persian);
+    mYearViewEnd = view.findViewById(R.id.date_picker_year_end_persian);
     mYearView.setOnClickListener(this);
     mYearViewEnd.setOnClickListener(this);
 
@@ -404,8 +404,8 @@ public class PersianDatePickerDialog extends DialogFragment implements
     int bgColorResource = mThemeDark ? R.color.mdtp_date_picker_view_animator_dark_theme : R.color.mdtp_date_picker_view_animator;
     view.setBackgroundColor(ContextCompat.getColor(activity, bgColorResource));
 
-    mAnimator = view.findViewById(R.id.animator);
-    mAnimatorEnd = view.findViewById(R.id.animator_end);
+    mAnimator = view.findViewById(R.id.animator_persian);
+    mAnimatorEnd = view.findViewById(R.id.animator_end_persian);
 
     mAnimator.addView(mDayPickerView);
     mAnimator.addView(mYearPickerView);
@@ -918,9 +918,9 @@ public class PersianDatePickerDialog extends DialogFragment implements
   @Override
   public void onClick(View v) {
     tryVibrate();
-    if (v.getId() == R.id.date_picker_year || v.getId() == R.id.date_picker_year_end) {
+    if (v.getId() == R.id.date_picker_year_persian || v.getId() == R.id.date_picker_year_end_persian) {
       setCurrentView(YEAR_VIEW);
-    } else if (v.getId() == R.id.date_picker_month_and_day || v.getId() == R.id.date_picker_month_and_day_end) {
+    } else if (v.getId() == R.id.date_picker_month_and_day_persian || v.getId() == R.id.date_picker_month_and_day_end_persian) {
       setCurrentView(MONTH_AND_DAY_VIEW);
     }
   }

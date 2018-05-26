@@ -15,7 +15,7 @@
 -->
 <com.github.bkhezry.persiandaterangepicker.date.PersianAccessibleDateAnimator
      xmlns:android="http://schemas.android.com/apk/res/android"
-     android:id="@+id/animator_end"
+     android:id="@+id/animator_end_persian"
      android:layout_width="@dimen/mdtp_date_picker_component_width"
      android:layout_height="@dimen/mdtp_date_picker_view_animator_height"
      android:gravity="center"

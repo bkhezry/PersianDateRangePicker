@@ -13,7 +13,7 @@
      limitations under the License.
 -->
 <com.github.bkhezry.persiandaterangepicker.date.PersianTextViewWithCircularIndicator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/month_text_view"
+    android:id="@+id/month_text_view_persian"
     android:layout_width="match_parent"
     android:layout_height="@dimen/mdtp_year_label_height"
     android:layout_gravity="center"
