@@ -1,5 +1,6 @@
 # PersianDateRangePicker
 [![](https://jitpack.io/v/bkhezry/PersianDateRangePicker.svg)](https://jitpack.io/#bkhezry/PersianDateRangePicker)
+[![Build Status](https://travis-ci.org/bkhezry/PersianDateRangePicker.svg?branch=master)](https://travis-ci.org/bkhezry/PersianDateRangePicker)
 
 Select range of dates and times in the Persian Calender
 
