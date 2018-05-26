@@ -36,7 +36,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.2'
+	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.5'
 }
 ```
 Using the  Pickers
