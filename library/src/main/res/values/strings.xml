@@ -17,8 +17,8 @@
 
     <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
     <string name="mdtp_done_label">Done</string>
-    <string name="mdtp_ok">انتخاب</string>
-    <string name="mdtp_cancel">لغو</string>
+    <string name="mdtp_ok_persian">انتخاب</string>
+    <string name="mdtp_cancel_persian">لغو</string>
     <!--
          Content description for the hour selector in the time picker, which displays
          selectable hours of the day along the inside edge of a circle, as in an analog clock.

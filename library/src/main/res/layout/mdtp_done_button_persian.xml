@@ -28,7 +28,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:text="@string/mdtp_cancel" />
+        android:text="@string/mdtp_cancel_persian" />
 
     <Button
         android:id="@+id/ok"
@@ -36,5 +36,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:text="@string/mdtp_ok" />
+        android:text="@string/mdtp_ok_persian" />
 </LinearLayout>

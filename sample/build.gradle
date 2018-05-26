@@ -8,8 +8,8 @@ android {
         applicationId 'com.github.bkhezry.persiandaterangepicker'
         minSdkVersion 17
         targetSdkVersion 27
-        versionName "1.2.2"
-        versionCode 122
+        versionName "1.2.4"
+        versionCode 124
         vectorDrawables.useSupportLibrary = true
     }
 
