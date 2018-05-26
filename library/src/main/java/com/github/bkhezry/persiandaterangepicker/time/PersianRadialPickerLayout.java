@@ -50,7 +50,7 @@ import java.util.Locale;
  * itself to end up as a square. It also handles touches to be passed in to views that need to know
  * when they'd been touched.
  */
-public class RadialPickerLayout extends FrameLayout implements OnTouchListener {
+public class PersianRadialPickerLayout extends FrameLayout implements OnTouchListener {
   private static final String TAG = "RadialPickerLayout";
 
   private final int TOUCH_SLOP;
@@ -107,7 +107,7 @@ public class RadialPickerLayout extends FrameLayout implements OnTouchListener {
     String getTypeface();
   }
 
-  public RadialPickerLayout(Context context, AttributeSet attrs) {
+  public PersianRadialPickerLayout(Context context, AttributeSet attrs) {
     super(context, attrs);
 
     setOnTouchListener(this);

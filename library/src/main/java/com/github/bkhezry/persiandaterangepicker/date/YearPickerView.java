@@ -46,7 +46,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, Per
   private YearAdapter mAdapter;
   private int mViewSize;
   private int mChildSize;
-  private TextViewWithCircularIndicator mSelectedView;
+  private PersianTextViewWithCircularIndicator mSelectedView;
   private int mAccentColor;
 
   /**
@@ -88,7 +88,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, Per
   @Override
   public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
     mController.tryVibrate();
-    TextViewWithCircularIndicator clickedView = (TextViewWithCircularIndicator) view;
+    PersianTextViewWithCircularIndicator clickedView = (PersianTextViewWithCircularIndicator) view;
     if (clickedView != null) {
       if (clickedView != mSelectedView) {
         if (mSelectedView != null) {
@@ -116,7 +116,7 @@ public class YearPickerView extends ListView implements OnItemClickListener, Per
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-      TextViewWithCircularIndicator v = (TextViewWithCircularIndicator)
+      PersianTextViewWithCircularIndicator v = (PersianTextViewWithCircularIndicator)
         super.getView(position, convertView, parent);
       v.setAccentColor(mAccentColor);
       v.requestLayout();

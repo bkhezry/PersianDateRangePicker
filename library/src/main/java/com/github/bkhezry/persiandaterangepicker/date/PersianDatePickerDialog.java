@@ -111,7 +111,7 @@ public class PersianDatePickerDialog extends DialogFragment implements
   private DialogInterface.OnCancelListener mOnCancelListener;
   private DialogInterface.OnDismissListener mOnDismissListener;
 
-  private AccessibleDateAnimator mAnimator;
+  private PersianAccessibleDateAnimator mAnimator;
 
   private TextView mDayOfWeekView;
   private LinearLayout mMonthAndDayView;
@@ -160,7 +160,7 @@ public class PersianDatePickerDialog extends DialogFragment implements
   private TextView mYearViewEnd;
   private SimpleDayPickerView mDayPickerViewEnd;
   private YearPickerView mYearPickerViewEnd;
-  private AccessibleDateAnimator mAnimatorEnd;
+  private PersianAccessibleDateAnimator mAnimatorEnd;
   private int tabTag = 1;
   private String startTitle;
   private String endTitle;

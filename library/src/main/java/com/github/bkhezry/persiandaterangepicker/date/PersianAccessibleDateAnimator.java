@@ -24,10 +24,10 @@ import android.widget.ViewAnimator;
 import com.github.bkhezry.persiandaterangepicker.persiandateutils.LanguageUtils;
 import com.github.bkhezry.persiandaterangepicker.persiandateutils.PersianDate;
 
-public class AccessibleDateAnimator extends ViewAnimator {
+public class PersianAccessibleDateAnimator extends ViewAnimator {
   private long mDateMillis;
 
-  public AccessibleDateAnimator(Context context, AttributeSet attrs) {
+  public PersianAccessibleDateAnimator(Context context, AttributeSet attrs) {
     super(context, attrs);
   }
 

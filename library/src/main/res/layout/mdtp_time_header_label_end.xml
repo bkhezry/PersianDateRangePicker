@@ -47,7 +47,7 @@
             android:layout_marginLeft="@dimen/mdtp_extra_time_label_margin"
             android:layout_marginRight="@dimen/mdtp_extra_time_label_margin"
             android:layout_centerVertical="true" >
-            <com.github.bkhezry.persiandaterangepicker.AccessibleTextView
+            <com.github.bkhezry.persiandaterangepicker.PersianAccessibleTextView
                 android:id="@+id/hours_end"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -90,7 +90,7 @@
             android:layout_marginEnd="@dimen/mdtp_extra_time_label_margin"
             android:layout_marginStart="@dimen/mdtp_extra_time_label_margin"
             android:layout_centerVertical="true" >
-            <com.github.bkhezry.persiandaterangepicker.AccessibleTextView
+            <com.github.bkhezry.persiandaterangepicker.PersianAccessibleTextView
                 android:id="@+id/minutes_end"
                 style="@style/mdtp_time_label"
                 android:layout_width="wrap_content"
@@ -100,7 +100,7 @@
                 android:layout_gravity="center"
                 android:textColor="@color/mdtp_accent_color_focused" />
         </FrameLayout>
-        <com.github.bkhezry.persiandaterangepicker.AccessibleTextView
+        <com.github.bkhezry.persiandaterangepicker.PersianAccessibleTextView
             android:id="@+id/ampm_hitspace_end"
             android:layout_width="@dimen/mdtp_ampm_label_size"
             android:layout_height="wrap_content"

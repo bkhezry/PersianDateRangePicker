@@ -53,7 +53,7 @@ import java.util.Locale;
 /**
  * Dialog to set a time.
  */
-public class PersianTimePickerDialog extends DialogFragment implements RadialPickerLayout.OnValueSelectedListener {
+public class PersianTimePickerDialog extends DialogFragment implements PersianRadialPickerLayout.OnValueSelectedListener {
   private static final String TAG = "PersianTimePickerDialog";
 
   private static final String KEY_HOUR_OF_DAY = "hour_of_day";
@@ -97,7 +97,7 @@ public class PersianTimePickerDialog extends DialogFragment implements RadialPic
   private TextView mMinuteSpaceView;
   private TextView mAmPmTextView;
   private View mAmPmHitspace;
-  private RadialPickerLayout mTimePicker;
+  private PersianRadialPickerLayout mTimePicker;
 
   private int mSelectedColor;
   private int mUnselectedColor;
@@ -140,7 +140,7 @@ public class PersianTimePickerDialog extends DialogFragment implements RadialPic
   private TextView mMinuteSpaceViewEnd;
   private TextView mMinuteViewEnd;
   private TextView mAmPmTextViewEnd;
-  private RadialPickerLayout mTimePickerEnd;
+  private PersianRadialPickerLayout mTimePickerEnd;
   private View mAmPmHitspaceEnd;
   private String fontName;
   private Context activity;
@@ -156,7 +156,7 @@ public class PersianTimePickerDialog extends DialogFragment implements RadialPic
      * @param hourOfDay The hour that was set.
      * @param minute    The minute that was set.
      */
-    void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int hourOfDayEnd, int minuteEnd);
+    void onTimeSet(PersianRadialPickerLayout view, int hourOfDay, int minute, int hourOfDayEnd, int minuteEnd);
   }
 
   public PersianTimePickerDialog() {

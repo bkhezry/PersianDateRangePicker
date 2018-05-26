@@ -16,8 +16,8 @@ import android.widget.TextView;
 import com.github.bkhezry.persiandaterangepicker.date.PersianDatePickerDialog;
 import com.github.bkhezry.persiandaterangepicker.persiandateutils.LanguageUtils;
 import com.github.bkhezry.persiandaterangepicker.persiandateutils.PersianDate;
+import com.github.bkhezry.persiandaterangepicker.time.PersianRadialPickerLayout;
 import com.github.bkhezry.persiandaterangepicker.time.PersianTimePickerDialog;
-import com.github.bkhezry.persiandaterangepicker.time.RadialPickerLayout;
 import com.github.bkhezry.persiandaterangepickerexample.R;
 
 import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements
 
 
   @Override
-  public void onTimeSet(RadialPickerLayout view, int hourOfDay, int minute, int hourOfDayEnd, int minuteEnd) {
+  public void onTimeSet(PersianRadialPickerLayout view, int hourOfDay, int minute, int hourOfDayEnd, int minuteEnd) {
     String hourString = String.valueOf(hourOfDay);
     if (hourOfDay < 10) {
       hourString = "0" + hourString;

@@ -35,7 +35,7 @@ import com.github.bkhezry.persiandaterangepicker.R;
 /**
  * A text view which, when pressed or activated, displays a colored circle around the text.
  */
-public class TextViewWithCircularIndicator extends TextView {
+public class PersianTextViewWithCircularIndicator extends TextView {
 
   private static final int SELECTED_CIRCLE_ALPHA = 255;
 
@@ -47,7 +47,7 @@ public class TextViewWithCircularIndicator extends TextView {
 
   private boolean mDrawCircle;
 
-  public TextViewWithCircularIndicator(Context context, AttributeSet attrs) {
+  public PersianTextViewWithCircularIndicator(Context context, AttributeSet attrs) {
     super(context, attrs);
     Resources res = context.getResources();
     mCircleColor = res.getColor(R.color.mdtp_accent_color);

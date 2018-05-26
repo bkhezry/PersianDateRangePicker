@@ -12,7 +12,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<com.github.bkhezry.persiandaterangepicker.date.AccessibleDateAnimator xmlns:android="http://schemas.android.com/apk/res/android"
+<com.github.bkhezry.persiandaterangepicker.date.PersianAccessibleDateAnimator xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/animator"
     android:layout_width="@dimen/mdtp_date_picker_component_width"
     android:layout_height="@dimen/mdtp_date_picker_view_animator_height"
