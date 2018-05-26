@@ -36,7 +36,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.0'
+	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.2'
 }
 ```
 Using the  Pickers
@@ -78,7 +78,7 @@ String monthString = String.valueOf(monthOfYear + 1);
 }
 
 @Override
-public void onTimeSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth,int yearEnd, int monthOfYearEnd, int dayOfMonthEnd) {
+public void onTimeSet(PersianRadialPickerLayout view, int year, int monthOfYear, int dayOfMonth,int yearEnd, int monthOfYearEnd, int dayOfMonthEnd) {
       String hourString = String.valueOf(hourOfDay);
     if (hourOfDay < 10) {
       hourString = "0" + hourString;
@@ -115,8 +115,8 @@ You will need to create a new instance of `PersianDatePickerDialog` using the st
   dpd.show(getFragmentManager(), "PersianDatePickerDialog");
 ```
 
-### Create a TimePickerDialog` using the supplied factory
-You will need to create a new instance of `TimePickerDialog` using the static `newInstance()` method, supplying proper default values and a callback. Once the dialogs are configured, you can call `show()`.
+### Create a PersianTimePickerDialog` using the supplied factory
+You will need to create a new instance of `PersianTimePickerDialog` using the static `newInstance()` method, supplying proper default values and a callback. Once the dialogs are configured, you can call `show()`.
  ```java
     PersianDate now = new PersianDate();
     PersianTimePickerDialog tpd = PersianTimePickerDialog.newInstance(
