@@ -23,7 +23,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyCharacterMap;
@@ -49,6 +48,8 @@ import com.github.bkhezry.persiandaterangepicker.persiandateutils.LanguageUtils;
 import java.text.DateFormatSymbols;
 import java.util.ArrayList;
 import java.util.Locale;
+
+import androidx.annotation.NonNull;
 
 /**
  * Dialog to set a time.

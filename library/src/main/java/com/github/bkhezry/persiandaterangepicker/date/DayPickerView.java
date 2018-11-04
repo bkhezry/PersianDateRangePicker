@@ -21,7 +21,6 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -38,6 +37,8 @@ import com.github.bkhezry.persiandaterangepicker.persiandateutils.PersianDate;
 
 import java.text.SimpleDateFormat;
 import java.util.Locale;
+
+import androidx.annotation.NonNull;
 
 /**
  * This displays a list of months in a calendar format with selectable days.

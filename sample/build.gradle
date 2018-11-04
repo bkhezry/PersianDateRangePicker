@@ -1,13 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 28
 
     defaultConfig {
         applicationId 'com.github.bkhezry.persiandaterangepicker'
         minSdkVersion 17
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionName "1.2.4"
         versionCode 124
         vectorDrawables.useSupportLibrary = true
@@ -23,7 +22,7 @@ android {
 dependencies {
     implementation project(':library')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.android.support:design:27.1.1'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
 }

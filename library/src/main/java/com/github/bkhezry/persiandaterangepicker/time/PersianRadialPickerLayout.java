@@ -24,7 +24,6 @@ import android.content.res.Resources;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.annotation.NonNull;
 import android.text.format.DateUtils;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -43,6 +42,8 @@ import com.github.bkhezry.persiandaterangepicker.persiandateutils.LanguageUtils;
 
 import java.util.Calendar;
 import java.util.Locale;
+
+import androidx.annotation.NonNull;
 
 
 /**
