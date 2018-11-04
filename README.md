@@ -6,9 +6,9 @@ Select range of dates and times in the Persian Calender
 
 **Project Setup and Dependencies**
 - JDK 8
-- Android SDK Build tools 27.0.3
+- Android SDK Build tools 28.0.3
 - Supports API Level +17
-- AppCompat & Design libraries 27.1.1
+- AppCompat & Design libraries androidx v:1.0.0
 
 ## A quick overview
 - compatible with **API Level +17**
@@ -37,7 +37,7 @@ allprojects {
 Add the dependency:
 ```gradle
 dependencies {
-	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.5'
+	implementation 'com.github.bkhezry:PersianDateRangePicker:1.2.6'
 }
 ```
 Using the  Pickers
